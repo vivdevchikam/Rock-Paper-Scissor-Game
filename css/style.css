@@ -1,0 +1,146 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Press+Start+2P&family=Raleway:wght@400;500;600;700&family=Roboto+Slab:wght@400;500;700&family=Rubik+Wet+Paint&display=swap");
+
+/***********************************/
+/*    ROCK PAPER SCISSORS GAME    */
+/**********************************/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.6%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0 auto;
+  background-color: #ced4da;
+  padding-bottom: 14rem;
+}
+
+main {
+  padding-top: 4rem;
+}
+
+/*#ced4da*/
+
+/*****************************/
+/*       LAYOUT PATTERN      */
+/****************************/
+
+.main-section {
+  text-align: center;
+}
+
+img {
+  height: 5rem;
+}
+
+.user-move {
+  text-align: center;
+  margin-top: 8rem;
+}
+
+.heading-section {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f9fa;
+  align-items: center;
+  gap: 4rem;
+}
+
+/****************************/
+/*      ELEMENT PATTERN      */
+/****************************/
+
+.heading-tag {
+  text-align: center;
+  font-size: 4.8rem;
+  padding: 2rem 0;
+}
+
+.btn-new-game {
+  height: 4rem;
+  background-color: #545455;
+  border: none;
+  color: #fff;
+  padding: 1rem 1rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.score-label {
+  border: 2px solid #545455;
+  width: 14%;
+  display: inline-block;
+  padding: 1rem 1rem;
+  font-size: 2.4rem;
+  font-weight: 600;
+  background: none;
+  margin-top: 4rem;
+}
+
+.user-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0.2rem 1rem;
+  display: inline-block;
+  background-color: #ffc078;
+  transform: translate(-120%, -150%);
+}
+
+.computer-name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding: 0.2rem 1rem;
+  display: inline-block;
+  background-color: #ffc078;
+  transform: translate(115%, -152%);
+}
+
+.message {
+  font-size: 4.8rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.btn-rock {
+  background: none;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+}
+.btn-paper {
+  background: none;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-left: 4rem;
+}
+.btn-scissor {
+  background: none;
+  width: 8rem;
+  height: 8rem;
+  border-radius: 50%;
+  margin-left: 4rem;
+}
+
+.suggestion {
+  font-size: 2rem;
+  margin-top: 6rem;
+}
+
+.times {
+  font-size: 6rem;
+  margin-top: 4rem;
+  font-weight: 500;
+}
+
+.times-message {
+  font-size: 2rem;
+  margin-top: 4rem;
+}

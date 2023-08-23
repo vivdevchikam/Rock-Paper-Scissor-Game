@@ -1,0 +1,149 @@
+/*******************************/
+/*     RESPONSIVE DESIGN      */
+/*****************************/
+
+@media (max-width: 1200px) {
+  .score-label {
+    width: 18%;
+  }
+
+  .message {
+    font-size: 3.6rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .score-label {
+    width: 22%;
+  }
+
+  .message {
+    font-size: 3rem;
+  }
+}
+
+@media (max-width: 832px) {
+  .score-label {
+    width: 24%;
+  }
+
+  .message {
+    font-size: 2.6rem;
+  }
+
+  .score-label {
+    width: 26%;
+  }
+}
+
+@media (max-width: 720px) {
+  html {
+    font-size: 55%;
+  }
+
+  .score-label {
+    width: 28%;
+  }
+}
+
+@media (max-width: 640px) {
+  .message {
+    font-size: 2.4rem;
+  }
+
+  .score-label {
+    width: 30%;
+  }
+}
+
+@media (max-width: 580px) {
+  .message {
+    font-size: 2.2rem;
+  }
+
+  .score-label {
+    width: 32%;
+  }
+}
+
+@media (max-width: 550px) {
+  .heading-tag {
+    font-size: 4rem;
+  }
+
+  .btn-new-game {
+    height: 4rem;
+  }
+}
+
+@media (max-width: 500px) {
+  /* .btn-new-game {
+    height: 3.4rem;
+    width: 16%;
+    font-size: 1.2rem;
+  } */
+
+  .heading-tag {
+    font-size: 3.6rem;
+  }
+
+  .score-label {
+    width: 36%;
+  }
+
+  .message {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 451px) {
+  .heading-section {
+    display: block;
+  }
+
+  .btn-new-game {
+    margin-left: 18rem;
+    margin-top: 2rem;
+    background-color: #004ad0;
+  }
+
+  .score-label {
+    width: 40%;
+  }
+
+  .message {
+    font-size: 1.7rem;
+  }
+}
+
+@media (max-width: 400px) {
+  /* .btn-new-game {
+    margin-left: 16rem;
+  }
+
+  .message {
+    font-size: 1.5rem;
+  } */
+  html {
+    font-size: 50%;
+  }
+
+  .main-section {
+    margin-top: 4rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .btn-new-game {
+    margin-left: 18rem;
+    margin-top: 4rem;
+  }
+
+  .heading-tag {
+    font-size: 3.8rem;
+  }
+
+  html {
+    font-size: 47%;
+  }
+}
